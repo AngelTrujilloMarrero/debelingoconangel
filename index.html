@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi página de GitHub</title>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js"></script>
+</head>
+<body>
+    <h1>Bienvenido a mi página de GitHub</h1>
+    <input type="text" id="message" placeholder="Escribe un mensaje">
+    <select id="months">
+        <option value="">Selecciona un mes</option>
+        <option value="1">Enero</option>
+        <option value="2">Febrero</option>
+        <option value="3">Marzo</option>
+        <option value="4">Abril</option>
+        <option value="5">Mayo</option>
+        <option value="6">Junio</option>
+        <option value="7">Julio</option>
+        <option value="8">Agosto</option>
+        <option value="9">Septiembre</option>
+        <option value="10">Octubre</option>
+        <option value="11">Noviembre</option>
+        <option value="12">Diciembre</option>
+    </select>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCg1OiMDsmfoAGpSVYRnvWdl4tSPnLVoUo",
+            authDomain: "debelingoconangel.firebaseapp.com",
+            projectId: "debelingoconangel",
+            storageBucket: "debelingoconangel.appspot.com",
+            messagingSenderId: "690632293636",
+            appId: "1:690632293636:web:5ccf13559fccf3d53a2451",
+            measurementId: "G-T8BV0MLJQJ"
+        };
+        // Initialize Firebase
+        var app = initializeApp(firebaseConfig);
+        var analytics = getAnalytics(app);
+    </script>
+</body>
+</html>
 
